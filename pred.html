@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>funny_predictor</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header>
+        <img id="logo" src="images/logo.png" alt="" width="80px" height="80px">
+        <h1>IPL Predictor</h1>
+    </header>
+    <nav>
+        <a class="nav_item" href="index.html">Home</a>
+        <a class="nav_item" href="team.html">Teams</a>
+    </nav>
+
+    <form action="result.html" method="GET">
+        <div class="inputbox">
+        <div class="input-container">
+            <input type="text" class="input-field" id="t1" placeholder="Select Team 1" required>
+            <ul class="options-list options-list-1">
+                <li>RCB</li>
+                <li>CSK</li>
+                <li>MI</li>
+                <li>SRH</li>
+                <li>RR</li>
+                <li>GT</li>
+                <li>LSG</li>
+                <li>DC</li>
+                <li>PBKS</li>
+                <li>KKR</li>
+            </ul>
+        </div>
+        <p>Vs</p>
+    
+        <div class="input-container">
+            <input type="text" class="input-field"  id="t2" placeholder="Select Team 2" required>
+            <ul class="options-list options-list-2">
+                <li>RCB</li>
+                <li>CSK</li>
+                <li>MI</li>
+                <li>SRH</li>
+                <li>RR</li>
+                <li>GT</li>
+                <li>LSG</li>
+                <li>DC</li>
+                <li>PBKS</li>
+                <li>KKR</li>
+            </ul>
+        </div>
+        <input type="hidden" id="hiddenTeam1" name="hiddenTeam1">
+         <input type="hidden" id="hiddenTeam2" name="hiddenTeam2">
+    <button type="submit" >Submit</button>
+    </div>
+    </form>
+    <footer class="footer">
+        <p class="footer_title">Somala Satish</p>
+        <div class="footer__social">
+            <a href="https://www.facebook.com/ssatish.somala?mibextid=ZbWKwL" class="footer__icon"><i class='bx bxl-facebook' ></i></a>
+            <a href="https://github.com/20A31A05C5" class="footer__icon"><i class='bx bxl-github' ></i></a>
+            <a href="https://twitter.com/SomalaSatish" class="footer__icon"><i class='bx bxl-twitter' ></i></a>
+            <a href="https://www.linkedin.com/in/satish-somala-04b93a246?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="footer__icon"><i class='bx bxl-linkedin' ></i></a>
+        </div>
+        <p class="footer_email">satish.somala2002@gmail.com</p>
+    </footer>
+    <script src="script.js"></script>
+</body> 
+</html>
