@@ -21,5 +21,4 @@
         <li>Punjab Super Kings</li>
         <li>Delhi Capitals</li>
         <li>Sunrisers Hyderabad</li>
-        
-     </ul>
+      </ul>
